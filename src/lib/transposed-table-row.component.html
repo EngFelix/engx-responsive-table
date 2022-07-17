@@ -1,0 +1,10 @@
+<td colspan="100%">
+  <table>
+    <ng-container *ngFor="let transposedRowDef of transposedRowDefs">
+    <tr *ngIf="transposedRowDef.show">
+      <ng-container *ngTemplateOutlet="transposedRowDef.thTemplateRef"></ng-container>
+      <ng-container #td></ng-container>
+    </tr>
+    </ng-container>
+  </table>
+</td>
