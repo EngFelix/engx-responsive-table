@@ -22,12 +22,12 @@ jobs:
             - node_modules
       - run:
           name: Test
-          command:  ng test
+          command: ng test
       - run:
           name: build
           command: |
-            if [ $CIRCLE_BRANCH = 'master' ]; then
-              npm run build-prod
+            if [ $CIRCLE_BRANCH = 'main' ]; then
+              ng build
             fi
       - persist_to_workspace:
           root: .
