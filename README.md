@@ -2,6 +2,8 @@
 
 This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.0.
 
+[![npm version](https://badge.fury.io/js/@engx%2Fengx-responsive-table.svg)](https://badge.fury.io/js/@engx%2Fengx-responsive-table)
+
 ## Code scaffolding
 
 Run `ng generate component component-name --project engx-responsive-table` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project engx-responsive-table`.
